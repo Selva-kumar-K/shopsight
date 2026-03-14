@@ -1,0 +1,7 @@
+[
+  { "id": "p1", "name": "Wireless Headphones", "price": 79.99, "category": "Electronics", "stock": 120 },
+  { "id": "p2", "name": "Running Shoes", "price": 54.95, "category": "Footwear", "stock": 85 },
+  { "id": "p3", "name": "Yoga Mat", "price": 29.99, "category": "Sports", "stock": 200 },
+  { "id": "p4", "name": "Coffee Maker", "price": 119.0, "category": "Kitchen", "stock": 45 },
+  { "id": "p5", "name": "Mechanical Keyboard", "price": 149.99, "category": "Electronics", "stock": 60 }
+]

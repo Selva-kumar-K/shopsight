@@ -1,0 +1,36 @@
+[
+  {
+    "id": "o1",
+    "customerId": "c1",
+    "customerName": "Alice Johnson",
+    "status": "delivered",
+    "total": 159.98,
+    "items": [
+      { "productId": "p1", "productName": "Wireless Headphones", "quantity": 1, "price": 79.99 },
+      { "productId": "p3", "productName": "Yoga Mat", "quantity": 1, "price": 29.99 }
+    ],
+    "createdAt": "2026-03-10T09:23:00Z"
+  },
+  {
+    "id": "o2",
+    "customerId": "c2",
+    "customerName": "Bob Smith",
+    "status": "processing",
+    "total": 149.99,
+    "items": [
+      { "productId": "p5", "productName": "Mechanical Keyboard", "quantity": 1, "price": 149.99 }
+    ],
+    "createdAt": "2026-03-13T14:05:00Z"
+  },
+  {
+    "id": "o3",
+    "customerId": "c3",
+    "customerName": "Clara Wu",
+    "status": "pending",
+    "total": 54.95,
+    "items": [
+      { "productId": "p2", "productName": "Running Shoes", "quantity": 1, "price": 54.95 }
+    ],
+    "createdAt": "2026-03-14T08:00:00Z"
+  }
+]
