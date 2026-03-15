@@ -1,13 +1,17 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Product } from "@/lib/types";
+import { ProductCardSkeleton } from "@/components/ProductCardSkeleton";
 
-interface Props {
-  product: Product;
+interface ProductCardProps {
+  product?: Product;
+  isLoading?: boolean;
   onAddToCart?: (product: Product) => void;
 }
 
-export function ProductCard({ product, onAddToCart }: Props) {
+export function ProductCard({ product, isLoading, onAddToCart }: ProductCardProps) {
+  if (isLoading || !product) return <ProductCardSkeleton />;
+
   const inStock = product.stock > 0;
 
   return (
