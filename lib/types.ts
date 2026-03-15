@@ -1,3 +1,5 @@
+export type SortColumn = "name" | "price" | "stock";
+
 export interface Product {
   id: string;
   name: string;
